@@ -1,0 +1,418 @@
+@import url(reset.css);
+
+body {
+	font-family: "ProximaNovaRegular";
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/*****************HEADER************************************/
+header {
+	color: #fff;
+	background-color: #000;
+	display: flex;
+	padding-top: 29px;
+	padding-bottom: 29px;
+	padding-left: 50px;
+	padding-right: 90px;
+
+	font-family: "ProximaNovaBold";
+}
+
+.logo {
+	width: 140px;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+}
+
+.nav-link {
+	margin-right: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.nav-link:last-child {
+	margin-right: 0;
+} 
+
+.nav-link:hover {
+	color: #FB5900;
+	transition: 0.2s ease-in;
+}
+
+.cart {
+	color: #fff;
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+}
+
+.cart .fa-search {
+	margin-right: 15px;
+}
+
+.cart .fa-shopping-cart {
+	margin-right: 5px;
+}
+
+/*******************HEADER END********************************/
+
+/***************** MAIN SLIDER ************************/
+
+.slider p {
+	color: #000;
+}
+
+.slider__item {
+	height: 760px;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.slider__item--1 {
+	/*background-image: url(../img/slider1.png);*/
+}
+
+.slider__item--2 {
+	/*background-image: url(../img/slider2.png);*/
+}
+
+.slider__centered {
+	
+}
+
+.slider__title {
+	color: #fff;
+	font-size: 80px;
+	text-transform: uppercase;
+	font-family: "ProximaNovaBlack";
+	margin-bottom: 60px;
+}
+
+.slider__btn {
+	display: inline-block;
+	text-align: center;
+	background-color: #000;
+	padding: 20px 23px;
+	line-height: 1;
+	font-size: 14px;
+	font-family: "ProximaNovaBold";
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: 0.4s ease-in;
+}
+
+.slider__btn:hover {
+	background-color: #FB5900;
+	
+}
+
+
+/***************** MAIN SLIDER END************************/
+
+
+/*******************SNOWBOARDS*********************/
+
+.snowboards {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 210px;
+	padding-top: 45px;
+}
+
+
+.header-group {
+	position: relative;
+	text-align: center;
+	padding-bottom: 50px;
+	
+}
+
+.header-group::after {
+	display: block;
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 30px;
+	height: 30px;
+	margin-left: -15px;
+	background-image: url(../img/x.svg);
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+
+.title-1 {
+	font-family: "ProximaNovaBold";
+	text-transform: uppercase;
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+.sub-title {
+	font-size: 14px;
+	text-transform: uppercase;
+
+}
+
+
+/**************SLIDER SNOWBAORDS******************/
+
+.slider-snowboards.owl-carousel {
+	padding-top: 115px;
+	padding-bottom: 50px;
+	width: 1110px;
+}
+
+/*.slider-snowboards.owl-carousel .owl-stage-outer {
+	overflow: visible;
+}*/
+
+.slider-snowboards__item {
+	width: 370px;
+	text-align: center;
+	height: 405px;
+}
+
+.slider-snowboards.owl-carousel .owl-item img {
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.slider-snowboards .owl-item {
+	opacity: 0.5;
+}
+
+.slider-snowboards .owl-item.active{
+	opacity: 1;
+}
+
+.slider-snowboards.owl-carousel .owl-nav .owl-next, .slider-snowboards.owl-carousel .owl-nav .owl-prev  {
+	width: 123px;
+	height: 230px;
+	display: block;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: contain;
+	background-size: contain;
+	position: absolute;
+	top: 50%;
+	margin-top: -115px;
+	outline: 0;
+}
+
+.slider-snowboards.owl-carousel .owl-nav .owl-next {
+	background-image: url(../img/next.png);
+	right: -55px;
+}
+
+.slider-snowboards.owl-carousel .owl-nav .owl-prev {
+	background-image: url(../img/prev.png);
+	left: -55px;
+}
+
+/*********SLIDER SNOWBAORDS END***********/
+
+.caption {
+	font-family: "ProximaNovaBold";
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+
+/*******************SNOWBOARDS END*********************/
+
+
+
+/***********MOUNTAINS***************/
+
+.mountains {
+	background-image: url(../img/mount.png);
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 954px;
+}
+
+.title-2 {
+	font-family: "ProximaNovaBold";
+	text-transform: uppercase;
+	font-size: 48px;
+	color: #fff;
+	padding-top: 245px;
+	padding-bottom: 75px;
+}
+
+.sub-title-2 {
+	font-size: 14px;
+	color: #fff;
+	width: 600px;
+	line-height: 1.5;
+}
+
+.sub-text {
+	padding-bottom: 45px;
+
+}
+
+
+/***********MOUNTAINS END***************/
+
+
+
+/***********features***************/
+
+.features {
+	padding-top: 120px;
+}
+
+.features-content {
+	margin-top: 85px;
+	display: flex;
+	
+}
+
+.box-4 img {
+	display: block;
+  	margin: 0 auto;
+}
+
+.box-4 p {
+	padding-top: 20px;
+	padding-left: 9px;
+	padding-bottom: 140px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+/***********features end***************/
+
+
+/***********FOOTER***************/
+
+footer {
+	background-color: #000;
+	padding-top: 75px;
+	padding-bottom: 75px;
+	color: #fff;
+}
+
+.row {
+	width: 960px;
+	display: flex;
+	margin: 0 auto;
+}
+
+.col-3 {
+	width: 25%;
+	
+}
+
+.col-3 h2 {
+	font-family: "ProximaNovaBold";
+	padding-bottom: 20px;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+.footer-nav {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-nav a {
+	color: #fff;
+	text-decoration: none;
+	padding-bottom: 12px;
+	font-size: 14px;
+	transition: 0.2s ease-in;
+}
+
+.footer-nav a:hover {
+	color: #fe822f;
+
+}
+
+.nav-links {
+	font-size: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-links a {
+	color: #fff;
+	transition: 0.2s ease-in;
+}
+
+.nav-links a:hover {
+	color: #256EA3;
+}
+
+.nav-links .fab {
+	margin-right: 20px;
+}
+
+.footer-form {
+	margin-bottom: 60px;
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.footer-form__input-text {
+	background-color: #fff;
+	width: 160px;
+	height: 42px;
+	padding: 0;
+	border: 0;
+	padding-left: 10px;
+	font-size: 14px;
+	color: #6c6c6c;
+	transition: 0.2s ease-in;
+}
+.footer-form__input-text:focus {
+	outline: none;
+	background-color: #fe882f;
+	color: #fff;
+}
+
+.footer-form__input-btn {
+	background-color: #c7c7c7;
+	width: 60px;
+	height: 42px;
+	padding: 0;
+	border: 0;
+	cursor: pointer;
+	font-family: "ProximaNovaBold";
+	transition: 0.2s ease-in;
+}
+
+.footer-form__input-btn:hover {
+	outline: none;
+	background-color: #7bbeee;
+	color: #fff;
+}
+
+.copyright {
+	padding-top: 60px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 12px;
+}
+/***********FOOTER END***************/
